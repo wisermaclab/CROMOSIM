@@ -1,0 +1,155 @@
+#top-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*border: 1px solid red;*/
+    width: 100%;
+    font-size: large;
+    height: 100%;
+}
+
+#top-wrap-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*border: 1px solid red;*/
+    width: 100%;
+    font-size: large;
+    height: 100%;
+}
+
+.model-title {
+    font-size: 40px;
+    padding-right: 100px;
+}
+
+.file-instruct {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.file-tips {
+    margin-left: 30px;
+    margin-bottom: 10px;
+    color: #2e9cca;
+    text-decoration-line: underline;
+    cursor: help;
+}
+
+.likes-list{
+    position:absolute;
+    box-sizing: border-box;
+    max-height:150px;
+    left:60%;
+    z-index:999;
+    background:white;
+    padding:10px;
+    border:1px solid grey;
+    box-shadow: 0 0 2px 2px grey;
+    align-content: center;
+    align-items: center;
+}
+
+.likes-list-text{
+    text-align: center;
+}
+
+.invisible-input{
+    visibility: hidden;
+}
+
+.input-button{
+    border: 1px solid grey;
+    text-align: center;
+    color: white;
+    background-color: #2e9cca;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    cursor: pointer;
+    width: 120%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.input-button:hover{
+    background-color: #25274d;
+}
+
+.file-input-wrap{
+    height: 40px;
+}
+
+.file-name{
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    color: brown;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+
+.file-name svg{
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+hr{
+    position:absolute;
+    width: 30%;
+    left: 48%;
+}
+
+.process-button{
+    position: relative;
+    left: 50%;
+    top: 8%;
+    border: 1px solid grey;
+    text-align: center;
+    color: white;
+    background-color: green;
+    padding-bottom: 5px;
+    cursor: pointer;
+    width: 20%;
+    height: 25px;
+    display: flex;
+}
+
+.process-button:hover{
+    background-color: darkgreen;
+}
+
+.process-wrap{
+    padding-top: 15%;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.ring{
+    height: 60px;
+}
+
+.next-button{
+    position: relative;
+    left: 13%;
+    top: 8%;
+    border: 3px solid #095316;
+    text-align: center;
+    color: white;
+    background-color: #adadad;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    cursor: pointer;
+    width: 20%;
+}

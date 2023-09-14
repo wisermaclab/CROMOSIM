@@ -1,0 +1,84 @@
+.canvas {
+    height: 90px;
+}
+
+.video-slider {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.video-slider-up {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-bar {
+    display: flex;
+    flex-direction: row;
+}
+
+.select-opt {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+.joint-select-bar {
+    padding-left: 5%;
+}
+
+.button-div {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+}
+
+.button-item {
+    height: 30px;
+    width: 100px;
+    background-color: #2e9cca;
+    font-weight: bold;
+    font-size: medium;
+    transition: 0.1s ease-in-out;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0px;
+    margin-top: 2px;
+    border: 1px solid rgba(37, 39, 77, 0.1444);
+    overflow: hidden;
+    cursor: pointer;
+}

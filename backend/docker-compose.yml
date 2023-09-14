@@ -1,0 +1,9 @@
+services:
+  client:
+    stdin_open: true
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: guzhii/backend
+    ports:
+      - "8080:8080"
