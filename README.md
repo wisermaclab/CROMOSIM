@@ -8,6 +8,9 @@ More information on the design of CROMOSIM can be found:
 </ul>
       
 ## Core features 
+CROMOSIM has also been implemented as a web service for ease of use. A caveat is due to high computation complexity of robust CVD, for videos, users have to run robust CVD separately and provide the results as inputs to CROMOSIM. 
+
+[![See a video demo](https://img.youtube.com/vi/VYCFZWOUkpI/maxresdefault.jpg)](https://youtu.be/VYCFZWOUkpI)
 <ul>
   <li><b>Web Frontend:</b> The front-end provides a graphic user interface allowing users to interact with the pipeline and determine sensor placements by maniputing the 3D rendering of SMPL model mesh.</li>
   <li><b>Web Backend:</b>Execute the CROMOSIM models and produce the synthetic data.</li>  
