@@ -2,13 +2,14 @@
 <b> CROMOSim </b> is an open source tool for synthesizing IMU sensor measurements from MoCap and video data. 
 ![overall](https://github.com/wisermaclab/CROMOSIM/assets/42444950/c9cec2dd-2c02-45c9-9864-ec290d8348e1)
 
-More information on the design of CROMOSIM can be found:
+More information on the design of CROMOSIM pipeline can be found:
 <ul>
   <li>Hao, Yujiao, Boyu Wang, and Rong Zheng. <a href="https://ieeexplore.ieee.org/abstract/document/9992037">"CROMOSim: A Deep Learning-based Cross-modality Inertial Measurement Simulator."</a> IEEE Transactions on Mobile Computing, 2022 (early access) (<a href="https://arxiv.org/abs/2202.10562">arxiv version</a>)</li>
 </ul>
+
       
 ## Core features 
-CROMOSIM has also been implemented as a web service for ease of use. A caveat is due to high computation complexity of robust CVD, for videos, users have to run robust CVD separately and provide the results as inputs to CROMOSIM. 
+CROMOSIM has also been implemented as a web service for ease of use. One caveat is due to the high computation complexity of robust CVD, for videos, users have to run robust CVD separately and provide the results as inputs to CROMOSIM. Details of the implementation can be found [here](https://github.com/wisermaclab/CROMOSIM/blob/main/Report/web%20service%20report.pdf). 
 
 [![See a video demo](https://img.youtube.com/vi/VYCFZWOUkpI/maxresdefault.jpg)](https://youtu.be/VYCFZWOUkpI)
 <ul>
