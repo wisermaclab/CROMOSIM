@@ -28,7 +28,7 @@ Please consider citing this work if you find this repo is useful for your projec
 
 ```
 @article{hao2022cromosim,
-  title={Cromosim: A deep learning-based cross-modality inertial measurement simulator},
+  title={{CROMOSim}: A deep learning-based cross-modality inertial measurement simulator},
   author={Hao, Yujiao and Lou, Xijian and Wang, Boyu and Zheng, Rong},
   journal={IEEE Transactions on Mobile Computing},
   year={2022},
