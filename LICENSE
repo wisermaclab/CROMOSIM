@@ -1,18 +1,21 @@
-//////////////////////////////////////////////////////////////////////////// 
-// Copyright 2022-2027 Wireless Sytem Research Lab,  
-// McMaster University. All Rights Reserved. 
-// 
-// For more information see <https://github.com/wisermaclab/CROMOSIM> 
-// If you use this software, please cite the corresponding publications   
-// listed on the above website. 
-// 
-// Permission to use, copy, modify and distribute this software and its 
-// documentation for educational, research and non-profit purposes only. 
-// Any modification based on this work must be open-source and prohibited 
-// for commercial use. 
-// You must retain, in the source form of any derivative works that you  
-// distribute, all copyright, patent, trademark, and attribution notices  
-// from the source form of this work. 
-//  
-// For commercial uses of this software, please send email to rzheng@mcmaster.ca
 ////////////////////////////////////////////////////////////////////////////
+// Copyright 2022. Wireless Sytem Research Lab,  McMaster University. All
+// Rights Reserved.
+// 
+// You have permission to use, copy, modify and distribute this software and
+// its documentation for educational, research and non-profit purposes only.
+// For commercial uses of this software, please send email to
+// rzheng@mcmaster.ca.
+//
+// Any modification based on this work must be open-source and prohibited for
+// commercial use. You must retain, in the source form of any derivative works
+// that you distribute, all copyright, patent, trademark, and attribution
+// notices from the source form of this work. If you use this software, please
+// cite the corresponding publications listed on the website. 
+// 
+// The software and its documentation are provided “as is” without any
+// representations and warranties, whether express or implied. Accordingly, any
+// use of the software and its documentation is strictly at your own risk and
+// the authors and McMaster University will not be liable for any losses and
+// damages in connection with the use of the software and its documentation.
+// //////////////////////////////////////////////////////////////////////////
